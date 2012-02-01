@@ -1,0 +1,6 @@
+alias la="ls -Gla"
+alias lsd='ls -l | grep "^d"'
+# shortcuts
+alias g="git"
+alias v="vim"
+alias m="mate ."
