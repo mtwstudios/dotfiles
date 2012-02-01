@@ -1,3 +1,4 @@
+alias ..="cd .."
 alias la="ls -Gla"
 alias lsd='ls -l | grep "^d"'
 # shortcuts
