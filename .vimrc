@@ -17,3 +17,5 @@ set laststatus=2
 " Show trailing whitespace
 " from http://vim.wikia.com/wiki/Highlight_unwanted_spaces
 :match ExtraWhitespace /\s\+\%#\@<!$/
+" Remove all trailing whitespace by hitting F5
+:nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
