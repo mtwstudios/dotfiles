@@ -15,3 +15,5 @@ color_my_prompt
 
 # bash completion for hosts that we've recently ssh'd to
 complete -W "$(echo $(grep '^ssh ' .bash_history | sort -u | sed 's/^ssh //'))" ssh
+
+source .aliases
