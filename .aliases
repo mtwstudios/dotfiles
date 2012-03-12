@@ -5,3 +5,4 @@ alias lsd='ls -l | grep "^d"'
 alias g="git"
 alias v="vim"
 alias m="mate ."
+alias gsl='git show $(git stash list | cut -d":" -f 1)'
