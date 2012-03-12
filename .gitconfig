@@ -59,6 +59,7 @@
 
   # remote
   r = remote -v                     # show remotes (verbose)
+  rp = remote prune origin
 
   # reset
   unstage = reset HEAD              # remove files from index (tracking)

@@ -17,3 +17,4 @@ color_my_prompt
 complete -W "$(echo $(grep '^ssh ' .bash_history | sort -u | sed 's/^ssh //'))" ssh
 
 source .aliases
+source git-completion.bash
