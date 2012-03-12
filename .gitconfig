@@ -101,6 +101,7 @@
   autocrlf = false
   editor = vim
   excludesfile = ~/.yadr/gitignore_global
+  pager = less -FRXS
 [advice]
   statusHints = false
 [diff]
