@@ -1,7 +1,7 @@
 alias ..="cd .."
 alias la="ls -Gla"
 alias lsd='ls -l | grep "^d"'
-alias gr="grep --color -r"
+alias gr="grep -n --color -r"
 # shortcuts
 alias g="git"
 alias v="vim"
