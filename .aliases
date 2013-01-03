@@ -1,3 +1,4 @@
+alias :q!="exit"
 alias ..="cd .."
 alias la="ls -Gla"
 alias lsd='ls -l | grep "^d"'
@@ -7,3 +8,5 @@ alias g="git"
 alias v="vim"
 alias m="mate ."
 alias gsl='git show $(git stash list | cut -d":" -f 1)'
+alias gspf='git stash show -p | git apply && git stash drop'
+alias glob='for branch in `git branch -a | grep -v HEAD`;do echo -e `git show --pretty=format:"%Cgreen%ci\t%Cblue%cr\t\t%Cred%cn\t\t%Creset" $branch | head -n 1` \\t$branch; done | sort -r | grep -E -i "month|year" | grep -v -i -E "2 months"'
