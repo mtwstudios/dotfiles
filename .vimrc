@@ -11,6 +11,7 @@ set shiftwidth=2
 set expandtab
 
 set autoindent
+set paste       " ignore tabs when I paste stuff as to not mess up indentation
 
 " Always display the status line
 set laststatus=2
