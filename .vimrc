@@ -2,6 +2,7 @@ set nocompatible
 syntax on
 
 set ruler      " show the cursor position at all time
+set number
 set showcmd    " show incomplete commands
 set incsearch  " do incremental searching
 
