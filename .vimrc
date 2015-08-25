@@ -5,6 +5,7 @@ set ruler      " show the cursor position at all time
 set number
 set showcmd    " show incomplete commands
 set incsearch  " do incremental searching
+set hlsearch   " highlight search results
 
 " Softtabs, 2 spaces
 set tabstop=2
