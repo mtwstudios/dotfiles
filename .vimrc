@@ -15,6 +15,9 @@ set expandtab
 set autoindent
 set paste       " ignore tabs when I paste stuff as to not mess up indentation
 
+" Enable mouse
+set mouse=a
+
 " Always display the status line
 set laststatus=2
 
